@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <github-input></github-input>
+    <github-output></github-output>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import GithubInput from './components/GithubInput.vue'
+import GithubOutput from './components/GithubOutput.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    GithubInput,
+    GithubOutput
   }
 }
 </script>

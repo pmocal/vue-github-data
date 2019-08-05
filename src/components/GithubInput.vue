@@ -1,6 +1,6 @@
 <template>
 	<form v-on:submit.prevent="onSubmit">
-		<input type="text" v-model="username" placeholder="Enter a github username here" />
+		<input type="text" v-model="username" placeholder="Enter a github username here" />&nbsp;
 		<button type="submit">Go!</button>
 	</form>
 </template>

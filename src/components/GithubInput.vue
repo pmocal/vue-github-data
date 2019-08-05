@@ -15,7 +15,7 @@
 			}
 		},
 		methods: {
-			onSubmit(event) {
+			onSubmit() {
 				if (this.username && this.username !== ''){
 					bus.$emit('new-username', this.username)
 				}
